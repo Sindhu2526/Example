@@ -1,0 +1,101 @@
+@CHARSET "ISO-8859-1";
+body {
+	margin: 0;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333;
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+
+li {
+	float: left;
+}
+
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+li
+ 
+a
+:hover
+:not
+ 
+(
+.active
+ 
+)
+{
+background-color
+:
+ 
+#111
+;
+
+
+}
+.active {
+	background-color: #4CAF50;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+.container {
+	position: relative;
+	max-width: 1365px;
+	margin: 0 auto;
+}
+
+.container .content {
+	position: absolute;
+	top: 5%;
+	background: rgba(0, 0, 0, 0);
+	color: dark green;
+	width: 100%;
+	padding: 10px;
+}
+
+.text-block {
+	position: absolute;
+	top: 30%;
+	left: 0px;
+	background: rgba(0, 0, 0, 0.2);
+	color: white;
+	width: 100%;
+	height: 60%;
+}
+
+.footer {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	color: black;
+	text-align: center;
+}
+
+aside {
+	text .align: left;
+	background-color: dimgray;
+	color: white;
+	position: absolute;
+	border: 3px solid #73AD21;
+	display: flex;
+}
+
+div.image2 {
+	transform: rotate(10deg);
+}
