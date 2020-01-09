@@ -64,6 +64,7 @@ public class Logincontroller {
 		List<User> listUser = userService.getAllUsers();
 
 		System.out.println("listUser.get(0)" + listUser.get(0));
+		System.out.println("hi");
 		model.addObject("listUser", listUser);
 
 		model.setViewName("viewUser");
