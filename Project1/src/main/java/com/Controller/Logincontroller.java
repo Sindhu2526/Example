@@ -53,6 +53,8 @@ public class Logincontroller {
 	public  String  deleteUser(@ModelAttribute User user) {
 		int memberId = user.getMemberId();
 	    userService.deleteUser(memberId);
+		//		System.out.println("2");
+
 		return "deleteSuccess";
 		//todo...return to view page to show the updated result
 	}
