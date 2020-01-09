@@ -68,6 +68,7 @@ public class Logincontroller {
 		System.out.println("listUser.get(0)" + listUser.get(0));
 		System.out.println("hi");
 		model.addObject("listUser", listUser);
+//		System.out.println("2");
 
 		model.setViewName("viewUser");
 
